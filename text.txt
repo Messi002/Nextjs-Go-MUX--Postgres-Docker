@@ -1,0 +1,6 @@
+Backend:
+touch mkdir backend
+go mod init api
+
+installing dependencies
+go get github.com/gorilla/mux github.com/lib/pq
